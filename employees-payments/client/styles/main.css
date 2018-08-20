@@ -1,0 +1,29 @@
+html, body {
+  font-family: Roboto, sans-serif;
+}
+
+.employees-app {
+  text-align: center;
+}
+
+.employees-app--header {
+  background-color: #222;
+  height: auto;
+  padding: 20px;
+  color: white;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  background-color: #218AF6;
+}

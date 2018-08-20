@@ -1,0 +1,51 @@
+.suggestions-box-holder {
+    position: relative;
+  }
+  
+  .suggestions-box {
+    position: absolute;
+    margin: 0px auto;
+    top: 32px;
+    right: 0;
+    padding: 0;
+    width: 240px;
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    display: -ms-flexbox;
+    list-style-type: none;
+    -ms-flex-direction: column;
+    background-color: rgb(30, 48, 62);
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: start;
+    text-align: left;
+  }
+  
+  .suggestions-box:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 4px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(30, 48, 62);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: inline-block;
+    z-index: -1;
+  }
+  
+  .suggestions-box li {
+    padding: 0 .5rem;
+    border-bottom: 1px solid rgb(29, 45, 58);
+    width: 100%;
+    box-sizing: border-box;
+    height: 2.5rem;
+    line-height: 2.5rem;
+  }
+  
+  .suggestions-box li:last-child {
+    border: 0 none;
+  }
